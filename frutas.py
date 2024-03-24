@@ -34,7 +34,9 @@ def encontrar_fruta_mas_barata(frutas):
 def respuesta_general():
     frutas = ingresar_frutas()
     costo_total = calcular_costo_total(frutas)
+    print("<-------- ***** --------->")
     print(f"El costo total del salpicón es: ${costo_total}")
+    print("<-------- ***** --------->")
     frutas_ordenadas = ordenar_frutas_por_costo(frutas)
     print("Frutas ordenadas de mayor a menor costo:")
     for fruta in frutas_ordenadas:
